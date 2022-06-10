@@ -56,8 +56,8 @@ labels = nx.get_edge_attributes(g,'weight')# Atributos que tiene las aristas
 nx.draw_networkx_edge_labels(g,pos,edge_labels=labels)
 nx.draw(g,pos,with_labels=True)
 
-print(nx.dijkstra_path(g,source= "Tonala",target="Arandas")) #Imprime el camino a seguir en la consola
-print(nx.dijkstra_path_length(g,source= "Tonala",target="Arandas")) #Imprime la distancia del camino en la consola
+print(nx.dijkstra_path(g,source= "Puerto Vallarta",target="Arandas")) #Imprime el camino a seguir en la consola
+print(nx.dijkstra_path_length(g,source= "Puerto Vallarta",target="Arandas")) #Imprime la distancia del camino en la consola
 plt.show() #Muestra el grafo
 
 
